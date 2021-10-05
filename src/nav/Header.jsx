@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <Navbar className="header-page">
             <Container>
-
-                <Navbar.Brand href="/">            <img 
-          className="d-inline-block align-top"
-           src={process.env.PUBLIC_URL + '/logo.png'} 
-           alt="logo" /></Navbar.Brand>
+                <Navbar.Brand href="/greenPower">         
+                   <img className="d-inline-block align-top"
+                        src={process.env.PUBLIC_URL + '/logo.png'} 
+                        alt="logo" />
+                </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>

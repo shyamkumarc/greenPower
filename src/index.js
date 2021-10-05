@@ -31,7 +31,7 @@ ReactDOM.render(
       </Col>
         <Col  >
           <Switch>
-            <Route exact path="/" component={App} />
+            <Route exact path="/greenPower" component={App} />
             <Route path="/solarforecast" component={SolarForecast} />
             <Route path="/monitorsolar" component={MonitorSolar} />
             <Route path="/windforecast" component={WindForecast} />
