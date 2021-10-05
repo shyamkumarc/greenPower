@@ -18,7 +18,7 @@ const Menupage = () => {
 
       <ListGroup as="ul">
         <ListGroup.Item as="li" className={splitLocation[1] === "" ? "active" : ""} >
-          <Link to='/'>Home</Link>
+          <Link to='/greenPower'>Home</Link>
         </ListGroup.Item>
 
         <Accordion>
